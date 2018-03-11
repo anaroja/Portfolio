@@ -4,28 +4,29 @@
     padding: 0px;
    }
    #wrapper{
-    width: 800px;
+    width: 900px;
     background-color: #5e4953;
     margin: 0px auto;
+    padding-bottom: 10px;
    }
    #header{
     padding: 15px;
     margin-bottom: 15px;
     background-color: #a6a6ac;
-    font-family: "Gotham-Rounded-Bold";
    }
    #navigation{
     width: 310px;
     padding-left:5px;
     padding-top:5px;
+    padding-right:5px;
     display: inline-block;
     vertical-align: top;
-    margin-left: 10px;
+    margin-left: 20px;
     background-color: #ded6df;
    }
    #main_content{
     width: 310px;
-    margin-left: 30px;
+    margin-left: 45px;
     display: inline-block;
     vertical-align: top;
     background-color: #a6a6ac;
@@ -33,16 +34,12 @@
    .subcontents{
     width: 210px;
     display:inline-block;
+    vertical-align: top;
     margin-left: 20px;
     margin-top: 10px;
     background-color: #ded6df;
     font-size: 12px;
    }
-  .desc{
-    background-color: #ded6df;
-    padding: 5px;
-    font-size: 12px;
-  }
   h1{
     display: inline;
   }
@@ -54,10 +51,33 @@
     margin-left: 300px;
   }
   .white{
-      color: #ded6df;
+      color: blanchedalmond;
       padding: 5px;
-      background-color: darkgray;
+      background-color: lightgray;
+      font-size: 15px;
   }
+  .desc{
+      background-color: #a6a6ac;
+      font-size: auto;
+  }
+  #adv{
+      background-color: green;
+      padding: 5px;
+      width: 90px;
+      border-radius: 20px;
+      margin-left: 40px;
+      border-style: solid;
+      border-color: black;
+      display: inline-block;
+      color: blanchedalmond;
+      font-size: 90%;
+    }
+#lamode{
+    padding-bottom: 30px;
+}
+#fam{
+    padding-bottom: 30px;
+}
   
   
  
